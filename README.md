@@ -1,6 +1,6 @@
 # Kimia-Farma-BDA
 
-4. Fixing Formatting
+4. Syntax Query yang digunakan
 ```{r}
 -- Membuat tabel analisa
 CREATE TABLE `kimi-farma-project.kimia_farma_big_data.tabel_analisa` AS
