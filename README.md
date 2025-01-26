@@ -1,5 +1,28 @@
 # Kimia-Farma-BDA
+# Process
+```{r}
+DECLARE query STRING;
 
+-- Buat query dinamis untuk semua tabel
+SET query = (
+  SELECT STRING_AGG(
+    FORMAT("""
+      SELECT '%s' AS table_name, 
+             '%s' AS column_name, 
+             COUNTIF(%s IS NULL) AS null_count
+      FROM `kimia_farma_big_data.%s`
+    """, table_name, column_name, column_name, table_name),
+    " UNION ALL "
+  )
+  FROM `kimia_farma_big_data.INFORMATION_SCHEMA.COLUMNS`
+  WHERE table_name IN ('kf_final_transaction','kf_inventory', 'kf_kantor_cabang', 'kf_product')
+);
+
+-- Eksekusi query untuk menghitung NULL di semua tabel dan kolom
+EXECUTE IMMEDIATE query;
+```
+
+# Analyze
 # Syntax Query yang digunakan
 ```{r}
 -- Membuat tabel analisa
