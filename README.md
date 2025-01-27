@@ -124,4 +124,8 @@ FROM transaction_data;
    * Products in Psychoactive Drugs & Hypnotics account for 16.6% of the total margin, making them a strategic focus for profitability.
 
 # Recomendations
-  
+1. Focus on expanding high-margin products like psychoactive drugs.
+2. Strengthen market presence in West Java, especially leveraging high-performing branches.
+3. Tailor marketing strategies for North Sumatra and Central Java to capitalize on existing opportunities.
+4. Explore promotional programs in underperforming regions like East Kalimantan and Riau to drive growth.
+   
