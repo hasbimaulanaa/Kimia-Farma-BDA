@@ -1,3 +1,4 @@
+![](https://github.com/hasbimaulanaa/Portoflio/blob/main/farma.png)
 # Virtual Internship Experience: Big Data Analytics - Kimia Farma
 VIX Big Data Analytics Kimia Farma merupakan virtual internship experience yang difasilitasi oleh Rakamin Academy. Pada project ini saya berperan sebagai Data Analyst Intern yang diminta untuk menganalisis dan membuat laporan penjualan perusahaan menggunakan data-data yang telah disediakan. Dari project ini, saya juga banyak belajar tentang data warehouse, dataleke, dan datamart.
 
@@ -5,6 +6,12 @@ VIX Big Data Analytics Kimia Farma merupakan virtual internship experience yang 
 <br>
 # Project Description
 The goal of this project is to provide strategic insights to improve operational efficiency through data analysis.
+Objectives:
+1. How did Kimia Farma's branches perform in terms of sales, profit, and ratings from 2020–2023?
+2. What trends emerged in Kimia Farma's sales, discounts, and profits during this period?
+3. Which branch contributed the most to total transactions and net sales?
+4. How is profit distributed across provinces in Indonesia?
+5. What recommendations can be made based on this analysis to improve business performance?
 # Datasets Used
 - kf_final_transaction.csv: Contains transaction data, including transaction ID, date, customer name, product price, discounts, and customer ratings.
 - kf_product.csv: Provides product details, such as product ID, name, category, and price.
@@ -89,6 +96,8 @@ FROM transaction_data;
 
 # Data Visualization
 - Kimia Farma Performance analytics Dashboard
+  [Click to view dashboard](https://lookerstudio.google.com/reporting/0d4ff341-69ea-4b99-8c21-11518f9bd32d)
+  
 ![](https://github.com/hasbimaulanaa/Portoflio/blob/main/hasil%204.png)
 
 # Dashboard Insights
@@ -113,4 +122,6 @@ FROM transaction_data;
   * Other significant categories include Anxiolytic Drugs and Drugs for Obstructive Airway Diseases.
 -  Highest Margin Products:
    * Products in Psychoactive Drugs & Hypnotics account for 16.6% of the total margin, making them a strategic focus for profitability.
+
+# Recomendations
   
