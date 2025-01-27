@@ -1,5 +1,18 @@
-# Kimia-Farma-BDA
+# Virtual Internship Experience: Big Data Analytics - Kimia Farma
+VIX Big Data Analytics Kimia Farma merupakan virtual internship experience yang difasilitasi oleh Rakamin Academy. Pada project ini saya berperan sebagai Data Analyst Intern yang diminta untuk menganalisis dan membuat laporan penjualan perusahaan menggunakan data-data yang telah disediakan. Dari project ini, saya juga banyak belajar tentang data warehouse, dataleke, dan datamart.
+
+VIX Big Data Analytics Kimia Farma merupakan virtual internship experience yang difasilitasi oleh [Rakamin Academy](https://www.rakamin.com/virtual-internship-experience/kimiafarma-big-data-analytics-virtual-internship-program). Pada project ini saya berperan sebagai Data Analyst Intern yang diminta untuk menganalisis dan membuat laporan penjualan perusahaan menggunakan data-data yang telah disediakan. Dari project ini, saya juga banyak belajar tentang data data warehouse, dataleke, dan datamart. <br>
+<br>
+# Project Description
+The goal of this project is to provide strategic insights to improve operational efficiency through data analysis.
+# Datasets Used
+- kf_final_transaction.csv: Contains transaction data, including transaction ID, date, customer name, product price, discounts, and customer ratings.
+- kf_product.csv: Provides product details, such as product ID, name, category, and price.
+- kf_inventory.csv: Contains inventory data for branch offices.
+- kf_kantor_cabang.csv: Includes branch office data such as location, category, and customer ratings.
+  
 # Process
+- Perform data cleaning
 ```{r}
 DECLARE query STRING;
 
@@ -21,9 +34,10 @@ SET query = (
 -- Eksekusi query untuk menghitung NULL di semua tabel dan kolom
 EXECUTE IMMEDIATE query;
 ```
+![](https://github.com/hasbimaulanaa/Portoflio/blob/main/null.png)
 
 # Analyze
-# Syntax Query yang digunakan
+- create an analysis table from datasets
 ```{r}
 -- Membuat tabel analisa
 CREATE TABLE `kimi-farma-project.kimia_farma_big_data.tabel_analisa` AS
@@ -71,3 +85,4 @@ SELECT *
 FROM transaction_data;
 
 ```
+![](https://github.com/hasbimaulanaa/Portoflio/blob/main/hasil3.png)
