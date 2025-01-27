@@ -86,3 +86,31 @@ FROM transaction_data;
 
 ```
 ![](https://github.com/hasbimaulanaa/Portoflio/blob/main/hasil3.png)
+
+# Data Visualization
+- Kimia Farma Performance analytics Dashboard
+![](https://github.com/hasbimaulanaa/Portoflio/blob/main/hasil%204.png)
+
+# Dashboard Insights
+1. Financial and Transaction Performance (2020-2023):
+- Net Sales: Consistent sales performance with annual sales between IDR 86.5B and IDR 87.1B.
+- Net Profit: Stable profit trends, with an average annual profit of IDR 24.6B.
+- Transactions: Over 672K transactions recorded, demonstrating consistent customer activity.
+2. Regional Performance:
+- Top Provinces by Net Sales:
+  * West Java: IDR 102.5B, the highest revenue contributor.
+  * North Sumatra and Central Java: Other high-performing regions.
+  * East Kalimantan and Riau: Underperforming regions with sales below IDR 11B.
+- Total Profit by Province:
+  * The heatmap indicates that West Java leads in profitability, while other regions exhibit varied performance levels.
+3. Branch Performance:
+- Top 5 Branches by Net Sales:
+  * Kimia Farma Klinik-Apotek Lab Subang: IDR 5B.
+  * Other branches in Sumedang, Garut, and Sukabumi also contributed significantly, with sales over IDR 4.5B each.
+4. Product Insights:
+- Top 3 Product Transactions:
+  * Psychoactive Drugs & Hypnotics dominate sales volume.
+  * Other significant categories include Anxiolytic Drugs and Drugs for Obstructive Airway Diseases.
+-  Highest Margin Products:
+   * Products in Psychoactive Drugs & Hypnotics account for 16.6% of the total margin, making them a strategic focus for profitability.
+  
