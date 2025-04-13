@@ -100,7 +100,6 @@ FROM transaction_data;
 
 # Data Visualization
 - Kimia Farma Performance analytics Dashboard
-  [Click to view dashboard](https://lookerstudio.google.com/reporting/0d4ff341-69ea-4b99-8c21-11518f9bd32d)
   
 ![](https://github.com/hasbimaulanaa/Portoflio/blob/main/hasil%204.png)
 
